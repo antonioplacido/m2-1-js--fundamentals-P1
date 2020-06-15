@@ -17,5 +17,4 @@ for(let x=0; x<24;x++)
     {console.log(`It's ${x}h. Time to Sleep!`)}
         else if (x===5 || x ===13 || x===18)
         {console.log(`It's ${x}h. Time to Eat!`)}
-            else
-            {console.log(`It's ${x}h.Time to Train!`)}
+            else {console.log(`It's ${x}h.Time to Train!`)}
