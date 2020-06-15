@@ -10,3 +10,12 @@
 // It's 11h. Time to train!
 // It's 12h. Time to train!
 // It's 13h. Time to eat!
+
+
+for(let x=0; x<24;x++)
+    if(x<5 ||x > 21)
+    {console.log(`It's ${x}h. Time to Sleep!`)}
+        else if (x===5 || x ===13 || x===18)
+        {console.log(`It's ${x}h. Time to Eat!`)}
+            else
+            {console.log(`It's ${x}h.Time to Train!`)}
